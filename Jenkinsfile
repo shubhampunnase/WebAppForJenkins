@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        3.8.7
+        mavan
     }
     stages {
         stage('Clean and Install') {
